@@ -1,3 +1,21 @@
+body{
+    background-color: cadetblue;
+}
+
+.start{
+    margin: 200px 650px;
+}
+
+div a button{
+    box-shadow: 0px 5px 15px rgb(196, 75, 75) inset;
+    color: #2600ff;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 20px 20px;
+    font-size: larger;
+    background-color: rgb(152, 180, 204);
+    border-style: none;
+}
 h2{
     margin: 0;
     text-align: center;
@@ -27,6 +45,10 @@ h2{
 }
 
 @media (max-width: 901px) {
+    .start{
+        margin: 150px 300px;
+    }
+
     #timer{
         margin-bottom: 15px;
     }
@@ -44,6 +66,10 @@ h2{
 }
 
 @media (max-width: 650px) {
+    .start{
+        margin: 200px 240px;
+    }
+
     #timer{
         margin-bottom: 10px;
     }
@@ -61,6 +87,10 @@ h2{
 }
 
 @media (max-width: 550px) {
+    .start{
+        margin: 150px 120px;
+    }
+
     .grid {
         margin-left: 100px;
     }
@@ -68,6 +98,10 @@ h2{
 }
 
 @media (max-width: 450px) {
+    .start{
+        margin: 100px 100px;
+    }
+
     .grid {
         margin-left: 50px;
     }
@@ -75,6 +109,10 @@ h2{
 }
 
 @media (max-width: 370px) {
+    .start{
+        margin: 100px 50px;
+    }
+
     .grid {
         margin-left: 20px;
     }
