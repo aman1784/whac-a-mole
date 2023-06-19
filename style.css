@@ -1,0 +1,82 @@
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+#timer{
+    margin-bottom: 30px;
+}
+
+.grid{
+    margin-left: 450px;
+    width: 456px;
+    height: 456px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-image: url('mole.png');
+    background-size: cover;
+}
+
+@media (max-width: 901px) {
+    #timer{
+        margin-bottom: 15px;
+    }
+    
+    .grid {
+        margin-left: 230px;
+        width: 366px;
+        height: 366px;
+    }
+
+    .square{
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 650px) {
+    #timer{
+        margin-bottom: 10px;
+    }
+    
+    .grid {
+        margin-left: 150px;
+        width: 306px;
+        height: 306px;
+    }
+
+    .square{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 550px) {
+    .grid {
+        margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .grid {
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 370px) {
+    .grid {
+        margin-left: 20px;
+    }
+
+}
